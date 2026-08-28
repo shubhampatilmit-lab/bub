@@ -1,0 +1,45 @@
+name: Daily Hyderabad Job Check
+
+on:
+  schedule:
+    # Runs at 08:00, 12:00, 16:00, and 20:00 IST
+    - cron: "30 2,6,10,14 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run job check
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          ALERT_TO_EMAIL: ${{ secrets.ALERT_TO_EMAIL }}
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
+          ALERT_TO_PHONE: ${{ secrets.ALERT_TO_PHONE }}
+          LOCATION_KEYWORD: Hyderabad
+        run: python check_jobs.py
+
+      - name: Commit updated job state
+        run: |
+          git config user.name "job-alert-bot"
+          git config user.email "actions@github.com"
+          git add data/seen_jobs.json data/latest_report.json
+          git diff --quiet --cached || git commit -m "Update seen jobs [skip ci]"
+          git push
