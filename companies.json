@@ -1,0 +1,469 @@
+[
+  {
+    "name": "Microsoft",
+    "sector": "Technology",
+    "hyderabad_location": "HITEC City",
+    "notes": "40+ acre campus; Azure, M365, GitHub, AI/Copilot",
+    "sources": [
+      { "type": "microsoft", "name": "Microsoft careers API", "location": "Hyderabad" },
+      { "type": "html", "name": "Microsoft careers page", "url": "https://careers.microsoft.com/v2/global/en/locations/hyderabad.html" }
+    ]
+  },
+  {
+    "name": "Google",
+    "sector": "Technology",
+    "hyderabad_location": "Gachibowli",
+    "notes": "2nd largest India campus; Search, Maps, YouTube, Cloud, AI",
+    "sources": [
+      { "type": "html", "name": "Google careers", "url": "https://www.google.com/about/careers/applications/jobs/results?location=Hyderabad%2C%20India" }
+    ]
+  },
+  {
+    "name": "Amazon",
+    "sector": "Technology/E-commerce",
+    "hyderabad_location": "Nanakramguda / HITEC City",
+    "notes": "AWS, retail tech, fulfilment; one of largest campuses outside Seattle",
+    "sources": [
+      { "type": "amazon", "name": "Amazon jobs API", "location_query": "Hyderabad, India" },
+      { "type": "html", "name": "Amazon jobs page", "url": "https://www.amazon.jobs/en/search?base_query=&loc_query=Hyderabad%2C%20India" }
+    ]
+  },
+  {
+    "name": "Apple",
+    "sector": "Technology",
+    "hyderabad_location": "Waverock, Nanakramguda",
+    "notes": "Apple Maps, Siri, software engineering",
+    "sources": [
+      { "type": "html", "name": "Apple jobs", "url": "https://jobs.apple.com/en-in/search?location=hyderabad-HYDB" }
+    ]
+  },
+  {
+    "name": "Salesforce",
+    "sector": "Technology/CRM",
+    "hyderabad_location": "Raheja Mindspace, Madhapur",
+    "notes": "CRM, automation, product development",
+    "sources": [
+      { "type": "workday", "name": "Salesforce Workday", "base_url": "https://salesforce.wd12.myworkdayjobs.com", "tenant": "salesforce", "site": "External_Career_Site" },
+      { "type": "html", "name": "Salesforce careers", "url": "https://careers.salesforce.com/en/jobs/?location=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Meta",
+    "sector": "Technology",
+    "hyderabad_location": "Hyderabad",
+    "notes": "Engineering & product functions",
+    "sources": [
+      { "type": "html", "name": "Meta careers", "url": "https://www.metacareers.com/jobs/?q=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Goldman Sachs",
+    "sector": "BFSI",
+    "hyderabad_location": "Hyderabad",
+    "notes": "Largest global office outside New York; 8,000+ employees",
+    "sources": [
+      { "type": "html", "name": "Goldman Sachs careers", "url": "https://higher.gs.com/results?query=&locationQuery=Hyderabad" }
+    ]
+  },
+  {
+    "name": "JPMorgan Chase",
+    "sector": "BFSI",
+    "hyderabad_location": "Financial District",
+    "notes": "Risk analytics, data engineering, tech & operations hub",
+    "sources": [
+      { "type": "html", "name": "JPMorgan careers", "url": "https://careers.jpmorgan.com/in/en/search-jobs?keywords=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Wells Fargo",
+    "sector": "BFSI",
+    "hyderabad_location": "Gachibowli",
+    "notes": "Risk, compliance, technology",
+    "sources": [
+      { "type": "workday", "name": "Wells Fargo Workday", "base_url": "https://wellsfargo.wd1.myworkdayjobs.com", "tenant": "wellsfargo", "site": "WellsFargoJobs" },
+      { "type": "html", "name": "Wells Fargo careers", "url": "https://www.wellsfargojobs.com/en/jobs/?search=Hyderabad" }
+    ]
+  },
+  {
+    "name": "HSBC",
+    "sector": "BFSI",
+    "hyderabad_location": "HITEC City / Financial District",
+    "notes": "Global Technology Center; finance ops, compliance, innovation",
+    "sources": [
+      { "type": "html", "name": "HSBC careers", "url": "https://www.hsbc.com/careers/apply-for-a-job?locations=Hyderabad" }
+    ]
+  },
+  {
+    "name": "UBS",
+    "sector": "BFSI",
+    "hyderabad_location": "Centaurus by Phoenix, Gachibowli",
+    "notes": "Opened Feb 2026; hiring 3,000 over two years",
+    "sources": [
+      { "type": "workday", "name": "UBS Workday", "base_url": "https://ubs.wd3.myworkdayjobs.com", "tenant": "ubs", "site": "External" },
+      { "type": "html", "name": "UBS careers", "url": "https://www.ubs.com/global/en/careers/search-jobs.html?query=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Vanguard",
+    "sector": "BFSI",
+    "hyderabad_location": "Sattva Knowledge Park, HITEC City",
+    "notes": "First India GCC (2025); scaling to 2,300+ by 2029",
+    "sources": [
+      { "type": "workday", "name": "Vanguard Workday", "base_url": "https://vanguard.wd5.myworkdayjobs.com", "tenant": "vanguard", "site": "vanguard_external" },
+      { "type": "html", "name": "Vanguard careers", "url": "https://www.vanguardjobs.com/search-jobs/Hyderabad" }
+    ]
+  },
+  {
+    "name": "State Street",
+    "sector": "BFSI",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "workday", "name": "State Street Workday", "base_url": "https://statestreet.wd1.myworkdayjobs.com", "tenant": "statestreet", "site": "Global" },
+      { "type": "html", "name": "State Street careers", "url": "https://statestreet.wd1.myworkdayjobs.com/Global?locationCountry=bd34c524678d4f269385a73e2a22e77b" }
+    ]
+  },
+  {
+    "name": "Lloyds Banking Group",
+    "sector": "BFSI",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "html", "name": "Lloyds careers", "url": "https://www.lloydsbankinggroup.com/careers/job-search.html?search=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Bank of America",
+    "sector": "BFSI",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "html", "name": "Bank of America careers", "url": "https://careers.bankofamerica.com/en-us/job-search?search=Hyderabad" }
+    ]
+  },
+  {
+    "name": "FactSet",
+    "sector": "BFSI",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "workday", "name": "FactSet Workday", "base_url": "https://factset.wd1.myworkdayjobs.com", "tenant": "factset", "site": "FactSetCareers" },
+      { "type": "html", "name": "FactSet careers", "url": "https://www.factset.com/careers/job-openings?location=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Chubb",
+    "sector": "BFSI",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "html", "name": "Chubb careers", "url": "https://careers.chubb.com/global/en/search-results?keywords=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Novartis",
+    "sector": "Pharma/Life Sciences",
+    "hyderabad_location": "HITEC City",
+    "notes": "Largest global corporate center outside Switzerland; ~9,000 employees",
+    "sources": [
+      { "type": "html", "name": "Novartis careers", "url": "https://www.novartis.com/careers/career-search?search_api_fulltext=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Sanofi",
+    "sector": "Pharma/Life Sciences",
+    "hyderabad_location": "HITEC City",
+    "notes": "EUR 400M expansion; targeting 4,500+ employees; AI in healthcare, R&D",
+    "sources": [
+      { "type": "workday", "name": "Sanofi Workday", "base_url": "https://sanofi.wd3.myworkdayjobs.com", "tenant": "sanofi", "site": "SanofiCareers" },
+      { "type": "html", "name": "Sanofi jobs", "url": "https://en.jobs.sanofi.com/search-jobs/Hyderabad" }
+    ]
+  },
+  {
+    "name": "Eli Lilly",
+    "sector": "Pharma/Life Sciences",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "html", "name": "Eli Lilly careers", "url": "https://careers.lilly.com/us/en/search-results?keywords=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Bayer",
+    "sector": "Pharma/Life Sciences",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "workday", "name": "Bayer Workday", "base_url": "https://bayer.wd3.myworkdayjobs.com", "tenant": "bayer", "site": "Global" },
+      { "type": "html", "name": "Bayer careers", "url": "https://career.bayer.com/en/job-search?search=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Roche",
+    "sector": "Pharma/Life Sciences",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "workday", "name": "Roche Workday", "base_url": "https://roche.wd3.myworkdayjobs.com", "tenant": "roche", "site": "roche-ext" },
+      { "type": "html", "name": "Roche careers", "url": "https://careers.roche.com/global/en/search-results?keywords=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Bristol Myers Squibb",
+    "sector": "Pharma/Life Sciences",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "workday", "name": "BMS Workday", "base_url": "https://bms.wd5.myworkdayjobs.com", "tenant": "bms", "site": "BMS" },
+      { "type": "html", "name": "BMS careers", "url": "https://careers.bms.com/jobs?location=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Johnson & Johnson",
+    "sector": "Pharma/Life Sciences",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "workday", "name": "J&J Workday", "base_url": "https://jnj.wd5.myworkdayjobs.com", "tenant": "jnj", "site": "JNJ" },
+      { "type": "html", "name": "J&J careers", "url": "https://jobs.jnj.com/en/jobs/?search=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Dr. Reddy's",
+    "sector": "Pharma/Life Sciences",
+    "hyderabad_location": "Banjara Hills / Craft Village, Madhapur",
+    "notes": "IT innovation center",
+    "sources": [
+      { "type": "html", "name": "Dr. Reddy's careers", "url": "https://careers.drreddys.com/search/?q=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Micron Technology",
+    "sector": "Semiconductors",
+    "hyderabad_location": "Madhapur, Mindspace IT Park",
+    "notes": "Chip design, testing",
+    "sources": [
+      { "type": "workday", "name": "Micron Workday", "base_url": "https://micron.wd1.myworkdayjobs.com", "tenant": "micron", "site": "External" },
+      { "type": "html", "name": "Micron careers", "url": "https://careers.micron.com/careers?location=Hyderabad" }
+    ]
+  },
+  {
+    "name": "AMD",
+    "sector": "Semiconductors",
+    "hyderabad_location": "Raheja Mindspace, Madhapur / HITEC City",
+    "notes": "Embedded and chip development",
+    "sources": [
+      { "type": "workday", "name": "AMD Workday", "base_url": "https://amd.wd5.myworkdayjobs.com", "tenant": "amd", "site": "External" }
+    ]
+  },
+  {
+    "name": "Qualcomm",
+    "sector": "Semiconductors",
+    "hyderabad_location": "Raheja Mindspace, Madhapur",
+    "notes": "Embedded & chip development; global semiconductor R&D",
+    "sources": [
+      { "type": "workday", "name": "Qualcomm Workday", "base_url": "https://qualcomm.wd5.myworkdayjobs.com", "tenant": "qualcomm", "site": "External" },
+      { "type": "html", "name": "Qualcomm careers", "url": "https://careers.qualcomm.com/careers?location=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Intel",
+    "sector": "Semiconductors",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "html", "name": "Intel careers", "url": "https://jobs.intel.com/en/search-jobs/Hyderabad" }
+    ]
+  },
+  {
+    "name": "Boeing",
+    "sector": "Engineering/Aerospace",
+    "hyderabad_location": "Adibatla",
+    "notes": "Engineering & simulation centers",
+    "sources": [
+      { "type": "html", "name": "Boeing jobs", "url": "https://jobs.boeing.com/search-jobs/Hyderabad" }
+    ]
+  },
+  {
+    "name": "GE Aerospace",
+    "sector": "Engineering/Aerospace",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "workday", "name": "GE Aerospace Workday", "base_url": "https://geaerospace.wd5.myworkdayjobs.com", "tenant": "geaerospace", "site": "GE_Aerospace" },
+      { "type": "html", "name": "GE Aerospace careers", "url": "https://jobs.gecareers.com/aviation/global/en/search-results?keywords=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Bosch",
+    "sector": "Automotive",
+    "hyderabad_location": "Sattva Knowledge Park, Kondapur",
+    "notes": "R&D, embedded software, EV systems",
+    "sources": [
+      { "type": "html", "name": "Bosch careers", "url": "https://www.bosch.com/careers/jobs/?query=Hyderabad" }
+    ]
+  },
+  {
+    "name": "ZF Lifetec",
+    "sector": "Automotive",
+    "hyderabad_location": "Gachibowli Craft Village",
+    "notes": "R&D, embedded software, EV systems",
+    "sources": [
+      { "type": "html", "name": "ZF careers", "url": "https://jobs.zf.com/search/?q=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Hyundai",
+    "sector": "Automotive",
+    "hyderabad_location": "Hyderabad",
+    "notes": "R&D, connected car technology",
+    "sources": [
+      { "type": "html", "name": "Hyundai careers", "url": "https://www.hyundai.com/worldwide/en/company/careers/job-openings?keyword=Hyderabad" }
+    ]
+  },
+  {
+    "name": "McDonald's",
+    "sector": "Retail/Consumer",
+    "hyderabad_location": "Hyderabad",
+    "notes": "Launched GCC; scaling to ~2,000 roles",
+    "sources": [
+      { "type": "html", "name": "McDonald's careers", "url": "https://careers.mcdonalds.com/global/en/search-results?keywords=Hyderabad" }
+    ]
+  },
+  {
+    "name": "PepsiCo",
+    "sector": "Retail/Consumer",
+    "hyderabad_location": "Hyderabad",
+    "notes": "IT architecture, analytics, supply chain & commercial planning support",
+    "sources": [
+      { "type": "html", "name": "PepsiCo jobs", "url": "https://www.pepsicojobs.com/main/jobs?stretchUnit=MILES&stretch=10&page=1&location=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Costco",
+    "sector": "Retail/Consumer",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "html", "name": "Costco careers", "url": "https://www.costco.com/jobs.html?keyword=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Heineken",
+    "sector": "Retail/Consumer",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "workday", "name": "Heineken Workday", "base_url": "https://heineken.wd3.myworkdayjobs.com", "tenant": "heineken", "site": "HEINEKEN_Careers" },
+      { "type": "html", "name": "Heineken careers", "url": "https://careers.theheinekencompany.com/search/?q=Hyderabad" }
+    ]
+  },
+  {
+    "name": "L'Oreal",
+    "sector": "Retail/Consumer",
+    "hyderabad_location": "Hyderabad",
+    "notes": "GCC operations",
+    "sources": [
+      { "type": "html", "name": "L'Oreal careers", "url": "https://careers.loreal.com/en_US/jobs/SearchJobs?keyword=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Optum (UnitedHealth)",
+    "sector": "Healthcare/Insurance",
+    "hyderabad_location": "Gachibowli",
+    "notes": "One of the largest healthcare GCCs in India",
+    "sources": [
+      { "type": "html", "name": "UnitedHealth Group careers", "url": "https://careers.unitedhealthgroup.com/search-jobs?k=Hyderabad" }
+    ]
+  },
+  {
+    "name": "DAZN",
+    "sector": "Sports Tech/Media",
+    "hyderabad_location": "HITEC City -> Auro Galaxy",
+    "notes": "India's first sports-tech GCC; targeting 3,000 jobs by end-2026",
+    "sources": [
+      { "type": "html", "name": "DAZN careers", "url": "https://careers.dazn.com/jobs?location=Hyderabad" }
+    ]
+  },
+  {
+    "name": "AT&T",
+    "sector": "Telecom/Media",
+    "hyderabad_location": "Hyderabad",
+    "notes": "Software engineering, cybersecurity, network solutions",
+    "sources": [
+      { "type": "html", "name": "AT&T jobs", "url": "https://www.att.jobs/search-jobs?k=Hyderabad" }
+    ]
+  },
+  {
+    "name": "T-Mobile",
+    "sector": "Telecom/Media",
+    "hyderabad_location": "Hyderabad",
+    "notes": "Network engineering",
+    "sources": [
+      { "type": "html", "name": "T-Mobile careers", "url": "https://www.tmobile.careers/search-jobs/Hyderabad" }
+    ]
+  },
+  {
+    "name": "Warner Bros. Discovery",
+    "sector": "Telecom/Media",
+    "hyderabad_location": "Hyderabad",
+    "notes": "Streaming & AI",
+    "sources": [
+      { "type": "html", "name": "WBD careers", "url": "https://careers.wbd.com/global/en/search-results?keywords=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Deloitte",
+    "sector": "Professional Services",
+    "hyderabad_location": "Hyderabad",
+    "notes": "Global Delivery Center; among firm's largest worldwide",
+    "sources": [
+      { "type": "html", "name": "Deloitte careers", "url": "https://apply.deloitte.com/en_GB/careers/SearchJobs/?listFilterMode=1&jobRecordsPerPage=25&keyword=Hyderabad" }
+    ]
+  },
+  {
+    "name": "RELX (LexisNexis/Elsevier)",
+    "sector": "Professional Services",
+    "hyderabad_location": "Hyderabad",
+    "notes": "Analytics and AI support",
+    "sources": [
+      { "type": "html", "name": "RELX careers", "url": "https://relx.wd3.myworkdayjobs.com/RELX?q=Hyderabad" }
+    ]
+  },
+  {
+    "name": "BASF",
+    "sector": "Chemicals",
+    "hyderabad_location": "Hyderabad",
+    "notes": "New hubs; ~3,000 jobs expected",
+    "sources": [
+      { "type": "html", "name": "BASF careers", "url": "https://basf.jobs/global/en/search-results?keywords=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Protolabs",
+    "sector": "Engineering/Manufacturing",
+    "hyderabad_location": "Hyderabad",
+    "notes": "Advanced engineering, digital manufacturing",
+    "sources": [
+      { "type": "html", "name": "Protolabs careers", "url": "https://www.protolabs.com/careers/?search=Hyderabad" }
+    ]
+  },
+  {
+    "name": "AVEVA",
+    "sector": "Technology/Engineering Software",
+    "hyderabad_location": "Hyderabad",
+    "notes": "Industrial software",
+    "sources": [
+      { "type": "html", "name": "AVEVA careers", "url": "https://careers.aveva.com/global/en/search-results?keywords=Hyderabad" }
+    ]
+  },
+  {
+    "name": "Franklin Templeton",
+    "sector": "BFSI/Asset Management",
+    "hyderabad_location": "Hyderabad",
+    "notes": "Asset management operations",
+    "sources": [
+      { "type": "html", "name": "Franklin Templeton careers", "url": "https://careers.franklintempleton.com/global/en/search-results?keywords=Hyderabad" }
+    ]
+  }
+]
